@@ -9,11 +9,11 @@ from subprocess import run
 import yaml
 
 parser = argparse.ArgumentParser(
-    description="Create virtual server user with specific username and password."
+    description="Create virtual server user with specific username, password and ssh port."
 )
 parser.add_argument("-u", "--user", help="Username to add.")
 parser.add_argument("-s", "--secret", help="User password to add.")
-parser.add_argument("-p", "--port", help="Port to map to ssh connection", default=2222)
+parser.add_argument("-p", "--port", help="Port to map to ssh connection, 2222 by default.", default=2222)
 args = parser.parse_args()
 
 os.environ["DOCKER_BUILDKIT"] = "1"
