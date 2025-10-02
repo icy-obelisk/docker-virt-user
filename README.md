@@ -16,3 +16,6 @@
 7. When you decide to remove the virtual user if clients messed up or just don't use it anymore, simply type `uv run delete_virtual_user.py -u <client username>`
 
 NOTE: REMEMBER TO REPLACE CONTENT INSIDE `<>` TO SOMETHING MEANINGFUL.
+
+TODO:
+- [ ] enable nvidia gpu support from official nvidia cuda images.
