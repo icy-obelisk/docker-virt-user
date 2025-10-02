@@ -1,0 +1,9 @@
+# uv stuff
+uv.lock
+
+# data files
+data/
+
+# docker files
+password.txt
+docker-compose-*.yaml
