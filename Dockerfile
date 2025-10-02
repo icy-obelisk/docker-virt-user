@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2025 icy-obelisk
+
 FROM ubuntu:24.04
 
 ARG USER_NAME

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2025 icy-obelisk
+
 import argparse
 import os
 import sys
