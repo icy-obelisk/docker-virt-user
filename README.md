@@ -2,7 +2,7 @@
 
 ## What is this?
 
-**This is the setup project for sysadmins/supervisors who want's to create ubuntu docker with conda as a virtual user for each clients/students to use a shared server.** This approach can avoid some clients/students doing destructive changes to OS unintentionally by **not give them a sudo account, just a container** to operate the server resources.
+**This is the setup project for sysadmins/supervisors who wants to create ubuntu docker with conda as a virtual user for each clients/students to use a shared server.** This approach can avoid some clients/students doing destructive changes to OS unintentionally by **not give them a sudo account, just a container** to operate the server resources.
 
 ## How to use?
 
